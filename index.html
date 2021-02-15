@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- icon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/rose-quartz.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <!-- Container for the Title + Intro + text
+  ––––––––––––––––––––––––– -->
+
+  <div class="container">
+
+    <div class="row">
+      <div class="twelve column" style="margin-top: 25%">
+        <h1>A Study of LGBTQ+ Wikipedia Articles Sentiment over Time</h1>
+
+        <h5>Tageline if we so decide</h5>
+         <p>by names </p>
+
+      </div>
+
+      <div class="twelve column" style="margin-left: 0">
+        <h5>Introduction</h5>
+        <p>With its 20 year history, Wikipedia is not merely a resource of crowd-sourced information; it is a reflection of changing times and attitudes across the world, as the definition of what we consider "public knowledge" changes with the times. 
+The significance of the last 20 years for social and political developments in LGBTQ+ representation also cannot be understated. Within that time, 29 countries around the world have legally recognized and performed same-sex marriages\parencite{SRC1}. Given such advances, we aim to explore their impact on Wikipedia data. 
+Other papers also seek to understand Wikipedia data in relation to LGBTQ+ representation. "Multilingual Contextual Affective Analysis of LGBT People Portrayals in Wikipedia" performs contextual affective analysis to examine the Wikipedia pages for LGBTQ+ individuals across different languages: Russian, English, and Spanish. This paper primarily seeks to identify the nuanced language individuals with LGBTQ+ identities or ties are discussed, and performs this by measuring the connotation of common verbs in the fields of agency, power, and sentiment in said articles. Using the connotation frames, “lexicons of verbs annotated to elicit implications,” for study helps frame a languages unconscious bias\parencite{SRC2}; however, our team primarily concerns ourselves with focus on sentiment. This somewhat narrows our scope of nuanced analysis, but allows us to identify broader trends in the data. In addition, unlike this paper, we want to look at changes in these trends. \par
+Other papers we pull from include “Censorship’s Effect on Incidental Exposure to Information: Evidence From Wikipedia”, where this paper looks at how the censorship in China affected the Wikipedia use, where certain topics and their frequency of use changed because of the ban\parencite{SRC3}. This should be noted since we are looking at Chinese Wikipedia data.   
+In our analysis, we attempt to measure and quantify this change for articles related to LGBTQ+ issues. Specifically, we wish to understand these changes in different languages, so we can cross-compare trends. The languages we choose to focus on are English, Spanish, and Chinese.
+
+        </p>
+      </div>
+
+      <div class="twelve column" style="margin-left: 0">
+        <h5>Anaylsis</h5>
+        <p>In our initial exploratory data analysis, we look at the specific article “Same Sex Marriage” across all three languages. We chose this Wikipedia article because of its age (it was a part of the Wikipedia contents since near inception for all languages) and its relevancy to our topic. As it a singular page, we cannot make broad sweeping statements. 
+
+First, we collect the articles edit history with the the time and date these edits took place.
+\par
+The data for the English files is incomplete, and there was no correlation for positive or negative associations over time. There is also an increasing amount of edits over time.</p>
+
+
+      </div>
+    </div>
+  </div>
+
+<!-- Container for the side-by-side graphs  -->
+  <div class="container" >
+
+    <div class="row">
+      <div class="one-half column" ><img class="u-max-full-width" src="images/zh_hist.png"><h7> Caption one: ljrfw lakjglkwjesz </h7>
+      </div>
+      <div class="one-half column"><img class="u-max-full-width" src="images/zh_sent.png"> <h7>Caption two: elksnfl alkekal </h7>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve column" style="margin-left: 0">       
+         <p>For the Chinese sentiment analyzer, the data implies positive correlation over time. There is also an increasing amount of edits over time. </p>
+      </div>
+     </div>
+   </div>
+
+
+<!-- Container for graph side-by-side with text  + text + table -->
+  <div class="container" >
+    <div class="row">
+      <div class="one-half column" >
+          <img class="u-max-full-width" src="images/zh_hist.png"><h7> Caption one: ljrfw lakjglkwjesz </h7>
+      </div>
+      <div class="one-half column">
+        <p>In the Spanish sentiment analysis, the data implies weak positive correlation over time. There is also an increasing amount of edits over time.  </p> 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="one-half column" >
+          <img class="u-max-full-width" src="images/zh_hist.png"><h7> Caption one: ljrfw lakjglkwjesz </h7>
+      </div> 
+       
+        <div class="one-half column"> <p>In the Spanish sentiment analysis, the data implies weak positive correlation over time. There is also an increasing amount of edits over time.  </p> 
+        </div>
+
+    </div>
+
+
+  <!-- text -->
+
+
+    <div class="row">
+      <div class="twelve column" style="margin-left: 0">
+        <h5>Methodology</h5>
+        <p>The first step in our analysis is identifying which pages to perform analysis on. Wikipedia has article categories which help us to identify which pages are relevant to our analysis. However, after investigating the articles marked under the "LGBT" Wikipedia category, our findings conclude that the sheer volume of pages which are marked "LGBT" as well as the fact that not all of them are strongly related to what we're looking for means that a slightly more manual approach is necessary. We chose to manually select a number of sub-categories to analyze based on category size and article relevancy. This serves the purpose of being manual enough for us to tweak our selection to be as relevant and small as we need it to be, while also being automatic enough so that we don't have to pick through articles one by one.
+\par
+After this, we query Wikipedia for the edit data for each page. This data is fairly large, so we immediately compute sentiment data for each edit in order to try and keep RAM free - holding the entire article is slow, and shuffling the data around in the case of especially long and high edit count articles is even slower. This is done for each page selected from the prior step, and the resulting sentiment data is stored as a JSON file to enable easy access for analysis later. Each page has a dictionary entry which stores its edit timestamps and their corresponding sentiment values. This format makes it easy to access data for individual pages and immediately display the data visually, as the pydict format is widely compatible with major python data science libraries like matplotlib and pandas, while being more lightweight than using those formats the entire time. This also allows for in-depth analysis of certain pages, as well as broader trends. </p>
+    </div> 
+
+    <div class="row">
+      <div class="twelve column" style="margin-left: 0">
+        <h5>Results</h5>
+        <p>For issues that we encounter in our initial analysis, we find that our querying of article data sometimes leads to a limit in the amount of articles allowed, especially for articles with larger amounts of edits. This primarily presents itself as a problem for our English articles; in our EDA, we find that not only does it have the highest amount of edits (with 5576), but this only covers the edit history of that page from 2002 to 2009. In our pipeline, we need to make adjustments to allow for querying of such pages. We also have other problems with the English data; we are uncertain if our initial analysis reflects broader English trends, issues of our sentiment analyzer, or if it has to do with our querying problem. 
+\par 
+Additionally, we found that this time spent on the sentiment analysis and querying was excessive, leading to the possibility of scaling down our project. </p>
+    
+    </div> 
+
+  <!-- table  ––––––––––––––––––––––––––––––––––––––– -->
+
+
+    <table class="u-full-width">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>time</th>
+          <th>day</th>
+          <th>Sentiment</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>----</td>
+          <td>2020</td>
+          <td>0101</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>---</td>
+          <td>1010</td>
+          <td>4884</td>
+          <td>-11</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+   <div class="row">
+      <div class="twelve column" style="margin-left: 0">
+        <h5>Conclusion</h5>
+        <p>For issues that we encounter in our initial analysis, we find that our querying of article data sometimes leads to a limit in the amount of articles allowed, especially for articles with larger amounts of edits. This primarily presents itself as a problem for our English articles; in our EDA, we find that not only does it have the highest amount of edits (with 5576), but this only covers the edit history of that page from 2002 to 2009. In our pipeline, we need to make adjustments to allow for querying of such pages. We also have other problems with the English data; we are uncertain if our initial analysis reflects broader English trends, issues of our sentiment analyzer, or if it has to do with our querying problem. 
+\par 
+Additionally, we found that this time spent on the sentiment analysis and querying was excessive, leading to the possibility of scaling down our project. </p>
+   
+      </div> 
+
+  </div> 
+</div> 
+
+
+
+  <!-- Reference list -->
+
+<ul> <h7>Sources</h7>
+
+  <li>source 1 </li>
+  <li> source 2 </li>
+  <li>source 3</li>
+</ul>
+
+
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
